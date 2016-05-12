@@ -1,0 +1,17 @@
+/FinalAsteroidsLibGDX/target/
+/AsteroidsEntity/Common/target/
+/AsteroidsEntity/Core/target/
+/AsteroidsEntity/Player/target/
+rebel.xml
+AsteroidsLibGDX/target/
+AsteroidsServiceLoader/Core/target/
+AsteroidsServiceLoader/Common/target/
+AsteroidsServiceLoader/Player/target/
+/AsteroidsNetbeansModules/branding/target/
+/AsteroidsNetbeansModules/Common/target/
+/AsteroidsNetbeansModules/Core/target/
+/AsteroidsNetbeansModules/SilentUpdate/target/
+/AsteroidsNetbeansModules/application/target/
+/AsteroidsNetbeansModules/Player/target/
+/AsteroidsNetbeansModules/Projectile/target/
+/AsteroidsNetbeansModules/OSGiActivator/target/
