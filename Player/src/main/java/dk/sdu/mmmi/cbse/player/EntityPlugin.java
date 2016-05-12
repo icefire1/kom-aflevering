@@ -13,9 +13,6 @@ public class EntityPlugin implements IGamePluginService {
     private Map<String, Entity> world;
     private Entity player;
 
-    public EntityPlugin() {
-    }
-
     @Override
     public void start(GameData gameData, Map<String, Entity> world) {
         this.world = world;

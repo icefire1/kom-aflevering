@@ -4,7 +4,8 @@ import java.io.Serializable;
 import java.util.UUID;
 
 public final class Entity implements Serializable {
-    private final UUID ID = UUID.randomUUID();
+
+    private final UUID ID;
     private EntityType type;
     private float x;
     private float y;
@@ -21,40 +22,52 @@ public final class Entity implements Serializable {
     private float radius;
     private boolean isHit = false;
     private float expiration;
+    private final long spawnTime;
+
+    public Entity() {
+        this.ID = UUID.randomUUID();
+        this.spawnTime = System.currentTimeMillis();
+    }
+
+    public long getSpawnTime() {
+        return spawnTime;
+    }
     
-    public void reduceExpiration(float delta){
+    
+
+    public void reduceExpiration(float delta) {
         this.expiration -= delta;
     }
-    
-    public float getExpiration(){
+
+    public float getExpiration() {
         return expiration;
     }
-    
-    public void setExpiration(float value){
+
+    public void setExpiration(float value) {
         this.expiration = value;
     }
-    
-    public boolean getIsHit(){
+
+    public boolean getIsHit() {
         return isHit;
     }
-    
-    public void setIsHit(boolean hit){
+
+    public void setIsHit(boolean hit) {
         this.isHit = hit;
     }
-    
-    public void setRadius(float r){
+
+    public void setRadius(float r) {
         this.radius = r;
     }
-    
-    public float getRadius(){
+
+    public float getRadius() {
         return radius;
     }
-    
-    public int getLife(){
+
+    public int getLife() {
         return life;
     }
-    
-    public void setLife(int life){
+
+    public void setLife(int life) {
         this.life = life;
     }
 
@@ -89,16 +102,16 @@ public final class Entity implements Serializable {
     public float getX() {
         return x;
     }
-    
-    public void setX(float x){
+
+    public void setX(float x) {
         this.x = x;
     }
 
     public float getY() {
         return y;
     }
-    
-    public void setY(float y){
+
+    public void setY(float y) {
         this.y = y;
     }
 
@@ -163,4 +176,29 @@ public final class Entity implements Serializable {
         this.rotationSpeed = rotationSpeed;
     }
 
+    public boolean intersects(Entity other) {
+        float[] sx = other.getShapeX();
+        float[] sy = other.getShapeY();
+        for (int i = 0; i < sx.length; i++) {
+            if (contains(sx[i], sy[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean contains(float x, float y) {
+        boolean b = false;
+        for (int i = 0, j = shapeX.length - 1;
+                i < shapeX.length;
+                j = i++) {
+            if ((shapeY[i] > y) != (shapeY[j] > y)
+                    && (x < (shapeX[j] - shapeX[i])
+                    * (y - shapeY[i]) / (shapeY[j] - shapeY[i])
+                    + shapeX[i])) {
+                b = !b;
+            }
+        }
+        return b;
+    }
 }

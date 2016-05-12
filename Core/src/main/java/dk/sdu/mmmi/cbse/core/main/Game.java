@@ -46,10 +46,10 @@ public class Game implements ApplicationListener {
         result.addLookupListener(lookupListener);
         result.allItems();
 
-//        for (IGamePluginService plugin : gamePlugins) {
-//            plugin.start(gameData, world);
-//            gamePlugins.add(plugin);
-//        }
+        for (IGamePluginService plugin : lookup.lookupAll(IGamePluginService.class)) {
+            plugin.start(gameData, world);
+            gamePlugins.add(plugin);
+        }
     }
 
     @Override
@@ -68,6 +68,8 @@ public class Game implements ApplicationListener {
     private void update() {
         // Update
         for (IEntityProcessingService entityProcessorService : getEntityProcessingServices()) {
+            if (world.isEmpty())
+                entityProcessorService.process(gameData, world, new Entity());
             for (Entity e : world.values()) {
                 entityProcessorService.process(gameData, world, e);
             }
@@ -75,10 +77,10 @@ public class Game implements ApplicationListener {
     }
 
     private void draw() {
+            sr.begin(ShapeRenderer.ShapeType.Line);
         for (Entity entity : world.values()) {
             sr.setColor(1, 1, 1, 1);
 
-            sr.begin(ShapeRenderer.ShapeType.Line);
 
             float[] shapex = entity.getShapeX();
             float[] shapey = entity.getShapeY();
@@ -90,8 +92,8 @@ public class Game implements ApplicationListener {
                 sr.line(shapex[i], shapey[i], shapex[j], shapey[j]);
             }
 
-            sr.end();
         }
+            sr.end();
     }
 
     @Override

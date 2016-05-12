@@ -3,7 +3,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/obstacle/Bundle.pro
  perties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0-20160512
-OpenIDE-Module-Build-Version: 201605121356
+OpenIDE-Module-Build-Version: 201605122057
 OpenIDE-Module: dk.sdu.mmmi.cbse.Obstacle
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -12,6 +12,6 @@ OpenIDE-Module-Name: Obstacle
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.26.1, dk.sdu.mmmi.cbse.Spring > 1.0, dk.sdu.mmmi.cbse.Common 
- > 1.0, org.openide.util.lookup > 8.32.1
+ n/1 > 1.26.1, dk.sdu.mmmi.cbse.Common > 1.0, org.openide.util.lookup 
+ > 8.32.1
 

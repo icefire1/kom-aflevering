@@ -66,6 +66,7 @@
     <module>PlayerInitialiser</module>
     <module>PlayerImplementation</module>
         <module>Spring</module>
+        <module>SilentUpdate</module>
     </modules>
 
     <properties>

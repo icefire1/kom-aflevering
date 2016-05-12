@@ -1,25 +1,34 @@
-#Thu May 12 15:57:16 CEST 2016
+#Thu May 12 23:01:29 CEST 2016
 org.netbeans.libs.osgi=
+org.openide.awt=
+org.netbeans.api.intent=
 org.openide.filesystems=
 dk.sdu.mmmi.cbse.Common=
 dk.sdu.mmmi.cbse.Projectile=/maven/,/maven/dk.sdu.mmmi.cbse/,dk.sdu.mmmi,/maven/dk.sdu.mmmi.cbse/Projectile/,dk.sdu,dk.sdu.mmmi.cbse,/maven/dk.sdu.mmmi.cbse/Projectile/pom.xml,dk,dk.sdu.mmmi.cbse.projectile,/maven/dk.sdu.mmmi.cbse/Projectile/pom.properties,/MANIFEST.MF,/
 dk.sdu.mmmi.cbse.OSGiActivator=
 org.eclipse.osgi.services=org.osgi.service.metatype,org.osgi.service,org.osgi.service.component,org.osgi.service.http,about.html,org,org.osgi.service.cm,org.osgi.service.useradmin,.api_description,org.osgi.service.device,/MANIFEST.MF,/,org.osgi.service.upnp,org.osgi.service.event,org.osgi.service.component.annotations,/ECLIPSE_.SF,/ECLIPSE_.RSA,org.osgi.service.provisioning,org.osgi,plugin.properties,org.osgi.service.wireadmin,org.osgi.service.log,about_files,/p2.inf
+org.netbeans.api.progress.nb=
 org.netbeans.api.annotations.common=
 dk.sdu.mmmi.cbse.Core=
 org.netbeans.core.startup=
 org.netbeans.modules.netbinox=
 dk.sdu.mmmi.cbse.PlayerImplementation=/maven/,dk.sdu.mmmi,dk.sdu,dk.sdu.mmmi.cbse,dk,/maven/dk.sdu.mmmi.cbse/PlayerImplementation/,/component.xml,/MANIFEST.MF,/,/component2.xml,/maven/dk.sdu.mmmi.cbse/,dk.sdu.mmmi.cbse.common.services",/maven/dk.sdu.mmmi.cbse/PlayerImplementation/pom.xml,dk.sdu.mmmi.cbse.playerimplementation,/maven/dk.sdu.mmmi.cbse/PlayerImplementation/pom.properties
+org.netbeans.api.io=
 org.netbeans.bootstrap=
-org.openide.modules=
 org.netbeans.core.startup.base=
+org.openide.modules=
+org.openide.io=
 dk.sdu.mmmi.cbse.PlayerInitialiser=/maven/,dk.sdu.mmmi,org.osgi.service.component,dk.sdu,dk.sdu.mmmi.cbse,/maven/dk.sdu.mmmi.cbse/PlayerInitialiser/pom.properties,dk,dk.sdu.mmmi.cbse.playerinitialiser,/maven/dk.sdu.mmmi.cbse/PlayerInitialiser/,/component.xml,/MANIFEST.MF,/,/maven/dk.sdu.mmmi.cbse/,dk.sdu.mmmi.cbse.common.services",/maven/dk.sdu.mmmi.cbse/PlayerInitialiser/pom.xml
 org.openide.util.lookup=
+org.netbeans.api.progress=
+dk.sdu.mmmi.cbse.SilentUpdate=
+org.netbeans.modules.autoupdate.services=
 org.openide.util.ui=
 dk.sdu.mmmi.cbse.AsteroidsNetbeansModules.branding=
+dk.sdu.mmmi.cbse.Obstacle=
 org.apache.felix.scr=/LICENSE,org.apache.felix.scr.component,org.apache.felix.utils.extender,org.osgi.service,org.osgi.service.component,org.apache.felix.scr.impl.manager,org.apache.felix.scr.impl.helper,org.apache.felix.scr.impl.parser,org.apache.felix.utils,org.apache.felix.scr.impl.config,/NOTICE,org.apache.felix,/maven/org.apache.felix/org.apache.felix.scr/pom.xml,/maven/org.apache.felix/,/maven/,org.osgi.util,org,org.apache.felix.scr.impl,/maven/org.apache.felix/org.apache.felix.scr/,/DEPENDENCIES,org.osgi.util.tracker,/MANIFEST.MF,/,org.osgi.service.component",org.kxml2.io,org.kxml2,org.apache.felix.scr,/changelog.txt,org.apache.felix.scr.impl.metadata,org.osgi,/maven/org.apache.felix/org.apache.felix.scr/pom.properties,org.xmlpull,org.apache,org.xmlpull.v1
-org.openide.filesystems.compat8=
 org.netbeans.core.netigso=
 org.netbeans.core.osgi=
+org.openide.filesystems.compat8=
 org.netbeans.libs.asm=
 org.openide.util=

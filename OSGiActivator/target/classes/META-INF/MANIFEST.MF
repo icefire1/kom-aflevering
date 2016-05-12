@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/osgiactivator/Bundl
 Bundle-Name: OGSi activator
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0-20160512
-OpenIDE-Module-Build-Version: 201605121624
+OpenIDE-Module-Build-Version: 201605122057
 OpenIDE-Module: dk.sdu.mmmi.cbse.OSGiActivator
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

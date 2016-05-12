@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.OSGiActivator">
-    <module_version install_time="1463070255778" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1463086649080" last="true" origin="installer" specification_version="1.0">
         <file crc="2478364239" name="config/Modules/dk-sdu-mmmi-cbse-OSGiActivator.xml"/>
-        <file crc="1091035286" name="modules/dk-sdu-mmmi-cbse-OSGiActivator.jar"/>
-        <file crc="3838269249" name="update_tracking/dk-sdu-mmmi-cbse-OSGiActivator.xml"/>
+        <file crc="3484615222" name="modules/dk-sdu-mmmi-cbse-OSGiActivator.jar"/>
     </module_version>
 </module>
