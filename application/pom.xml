@@ -43,6 +43,12 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>Core</artifactId>
             <version>${project.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>dk.sdu.mmmi.cbse</groupId>
+                    <artifactId>Spring</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         
         
@@ -92,17 +98,7 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>Projectile</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>Obstacle</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>SilentUpdate</artifactId>
+            <artifactId>Player</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

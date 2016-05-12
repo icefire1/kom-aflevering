@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Spring">
-    <module_version install_time="1462988667637" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1463061405670" last="true" origin="installer" specification_version="1.0">
         <file crc="1240930814" name="config/Modules/dk-sdu-mmmi-cbse-Spring.xml"/>
-        <file crc="426805837" name="modules/dk-sdu-mmmi-cbse-Spring.jar"/>
+        <file crc="2813825865" name="modules/dk-sdu-mmmi-cbse-Spring.jar"/>
         <file crc="964851370" name="modules/ext/dk.sdu.mmmi.cbse.Spring/aopalliance/aopalliance.jar"/>
         <file crc="908197187" name="modules/ext/dk.sdu.mmmi.cbse.Spring/commons-logging/commons-logging.jar"/>
         <file crc="2309079332" name="modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-aop.jar"/>

@@ -38,5 +38,15 @@
             <artifactId>Projectile</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>PlayerInitialiser</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>PlayerImplementation</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

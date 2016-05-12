@@ -15,3 +15,5 @@ AsteroidsServiceLoader/Player/target/
 /AsteroidsNetbeansModules/Player/target/
 /AsteroidsNetbeansModules/Projectile/target/
 /AsteroidsNetbeansModules/OSGiActivator/target/
+/PlayerImplementation/target/
+/PlayerInitialiser/target/

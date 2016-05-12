@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="ServiceInitialiser">
+    <implementation class="dk.sdu.mmmi.cbse.playerinitialiser.Initialiser"/>
+    <reference name="IPlayerService"
+               interface="dk.sdu.mmmi.cbse.common.services.IGamePluginService"
+               cardinality="1..1"
+               policy="dynamic" 
+               bind="gotService" 
+               unbind="lostService"/>
+</scr:component>

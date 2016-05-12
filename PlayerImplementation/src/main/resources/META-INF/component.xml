@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="PlayerImplementation">
+    <implementation class="dk.sdu.mmmi.cbse.playerimplementation.PlayerImplementation"/>
+    <service>
+        <provide interface="dk.sdu.mmmi.cbse.common.services.IGamePluginService"/>
+    </service>
+</scr:component>

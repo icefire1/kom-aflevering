@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/obstacle/Bundle.pro
  perties
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20160511
-OpenIDE-Module-Build-Version: 201605111744
+OpenIDE-Module-Implementation-Version: 1.0-20160512
+OpenIDE-Module-Build-Version: 201605121356
 OpenIDE-Module: dk.sdu.mmmi.cbse.Obstacle
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

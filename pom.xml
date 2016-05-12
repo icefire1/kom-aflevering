@@ -60,12 +60,13 @@
         <module>Common</module>
         <module>Core</module>
         <module>Player</module>
-        <module>SilentUpdate</module>
-        <module>Spring</module>
         <module>Obstacle</module>
         <module>OSGiActivator</module>
     <module>Projectile</module>
-  </modules>
+    <module>PlayerInitialiser</module>
+    <module>PlayerImplementation</module>
+        <module>Spring</module>
+    </modules>
 
     <properties>
         <netbeans.version>RELEASE81</netbeans.version>

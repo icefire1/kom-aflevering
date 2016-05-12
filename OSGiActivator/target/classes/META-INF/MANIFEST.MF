@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/osgiactivator/Bundl
  e.properties
-Bundle-Name: English dictionary
+Bundle-Name: OGSi activator
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20160511
-OpenIDE-Module-Build-Version: 201605111744
+OpenIDE-Module-Implementation-Version: 1.0-20160512
+OpenIDE-Module-Build-Version: 201605121624
 OpenIDE-Module: dk.sdu.mmmi.cbse.OSGiActivator
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -13,5 +13,7 @@ OpenIDE-Module-Name: OSGiActivator
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.26.1, dk.sdu.mmmi.cbse.Projectile > 1.0.0
+ n/1 > 1.26.1, dk.sdu.mmmi.cbse.Projectile > 1.0.0, dk.sdu.mmmi.cbse.P
+ layerInitialiser > 1.0.0, dk.sdu.mmmi.cbse.PlayerImplementation > 1.0
+ .0
 
