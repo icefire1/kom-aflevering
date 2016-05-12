@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/spring/Bundle.prope
+ rties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20160511
+OpenIDE-Module-Build-Version: 201605111744
+OpenIDE-Module: dk.sdu.mmmi.cbse.Spring
+OpenIDE-Module-Public-Packages: org.springframework.**
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.mmmi.cbse
+OpenIDE-Module-Name: Spring
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+X-Class-Path: ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-c
+ ore.jar ext/dk.sdu.mmmi.cbse.Spring/commons-logging/commons-logging.j
+ ar ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-context.jar
+  ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-aop.jar ext/d
+ k.sdu.mmmi.cbse.Spring/aopalliance/aopalliance.jar ext/dk.sdu.mmmi.cb
+ se.Spring/org-springframework/spring-beans.jar ext/dk.sdu.mmmi.cbse.S
+ pring/org-springframework/spring-expression.jar
+Maven-Class-Path: org.springframework:spring-core:4.2.5.RELEASE common
+ s-logging:commons-logging:1.2 org.springframework:spring-context:4.2.
+ 5.RELEASE org.springframework:spring-aop:4.2.5.RELEASE aopalliance:ao
+ palliance:1.0 org.springframework:spring-beans:4.2.5.RELEASE org.spri
+ ngframework:spring-expression:4.2.5.RELEASE
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.26.1
+
